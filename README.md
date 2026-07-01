@@ -9,7 +9,7 @@ NOTE: Only songs from the Liked playlist will be downloaded. Other playlists wil
 3. Copy and paste this command line into termux to install all required packages.
 
 ```bash
-echo -e "\033[33m>>> You have 10 seconds to allow storage access.\033[0m" && sleep 3 && termux-setup-storage && sleep 13 && echo -e "\033[33m>>> Answer 'y' to all installation prompts.\033[0m" && pkg update -y && pkg upgrade -y && pkg install python python-pip ffmpeg -y && clear && echo -e "\033[32m>>> Starting spotify_downloader.py in Downloads.\n\n>>> For next runs, use: python /storage/emulated/0/Download/spotify_downloader.py\n\033[0m" && echo "" && cd /storage/emulated/0/Download && python spotify_downloader.py
+echo -e "\033[33m>>> You have 10 seconds to allow storage access.\033[0m" && sleep 3 && termux-setup-storage && sleep 13 && echo -e "\033[33m>>> Answer 'y' to all installation prompts.\033[0m" && pkg update -y && pkg upgrade -y && pkg install python python-pip ffmpeg -y && clear && echo -e "\033[32m>>> Starting Spotydroid.py in Downloads.\n\n>>> For next runs, use: python /storage/emulated/0/Download/Spotydroid.py\n\033[0m" && echo "" && cd /storage/emulated/0/Download && python Spotydroid.py
 ```
 
  ── SPOTIFY API CREDENTIALS
